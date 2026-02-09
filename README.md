@@ -1,16 +1,52 @@
-# React + Vite
+# 🌸 Digital Clock with Weather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A beautiful, responsive digital clock application built with React.js that displays real-time updates and current weather information with a stunning cherry blossom background.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Real-time Clock**: Updates every second with 12-hour format and AM/PM indicator
+- **Weather Integration**: Displays current temperature, weather condition, and location
+- **Beautiful UI**: Glass-morphism design with cherry blossom background
+- **Smooth Animations**: Fade-in effects, pulsing colon, and loading states
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** - Frontend framework
+- **OpenWeatherMap API** - Weather data integration
+- **CSS3** - Styling with animations and glassmorphism effects
+- **JavaScript+** - Modern JavaScript features
+
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/josephkwok001/digital-clock-weather.git
+   cd digital-clock-weather
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Get API Key**
+   - Sign up at [OpenWeatherMap](https://openweathermap.org/api)
+   - Copy your API key
+   - Open `src/DigitalClock.jsx`
+   - Replace `YOUR_API_KEY_HERE` with your actual API key:
+     ```javascript
+     const API_KEY = 'your-api-key-here';
+     ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser**
+   - Navigate to `http://localhost:5173`
+
