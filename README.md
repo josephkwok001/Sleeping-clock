@@ -1,6 +1,6 @@
 # 🌸 Digital Clock with Weather
 
-![Digital Clock Demo](screenshot.png)
+![Uploading Screenshot 2026-02-09 at 8.01.23 PM.png…]()
 
 A beautiful, responsive digital clock application built with React.js that displays real-time updates and current weather information with a stunning cherry blossom background.
 
